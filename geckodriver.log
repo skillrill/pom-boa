@@ -563,3 +563,20 @@ DevTools listening on ws://localhost:55479/devtools/browser/dfe4d10d-6570-4b7d-8
 1652586240064	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1652586241690	Marionette	INFO	Stopped listening on port 55485
 JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\eldor\AppData\Local\Temp\rust_mozprofileI3QYO7\protections.sqlite
+1652587363984	geckodriver	INFO	Listening on 127.0.0.1:56060
+1652587367045	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56061" "-no-remote" "-profile" "C:\\Users\\eldor\\AppData\\Local\\Temp\\rust_mozprofilekA7BYI"
+1652587367408	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\eldor\\AppData\\Local\\Temp\\rust_mozprofilekA7BYI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56061/devtools/browser/cbd8a451-bbe6-4c1d-acbd-e3957aca2df7
+1652587368944	Marionette	INFO	Listening on port 56067
+1652587369108	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652587377089	Marionette	INFO	Stopped listening on port 56067
+1652587377813	geckodriver	INFO	Listening on 127.0.0.1:56140
+1652587380875	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56141" "-no-remote" "-profile" "C:\\Users\\eldor\\AppData\\Local\\Temp\\rust_mozprofiler2kluC"
+1652587381395	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\eldor\\AppData\\Local\\Temp\\rust_mozprofiler2kluC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56141/devtools/browser/97a78d27-b734-4ae0-aa4b-acb50fc084f5
+1652587382936	Marionette	INFO	Listening on port 56147
+1652587383041	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652587384700	Marionette	INFO	Stopped listening on port 56147
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"

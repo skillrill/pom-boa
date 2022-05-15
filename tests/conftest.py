@@ -27,7 +27,7 @@ def setup(request):
     return driver
 
 
-# it is a hook to add env info
-def pytest_configure(config):
-    config._metadata['Project Name'] = 'Swag Labs'
-    config._metadata['Tester'] = 'John Doe'
+# # it is a hook to add env info
+# def pytest_configure(config):
+#     config._metadata['Project Name'] = 'Swag Labs'
+#     config._metadata['Tester'] = 'John Doe'

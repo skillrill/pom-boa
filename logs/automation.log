@@ -169,3 +169,15 @@
 05/14/2022 11:44:01 PM ********** Test Case: Validating Welcome Page Title 
 05/14/2022 11:44:01 PM Taking a screenshot .\screenshots\image-051422-234401.png
 05/14/2022 11:44:01 PM Closing the browser
+05/15/2022 12:02:49 AM Opening firefox browser
+05/15/2022 12:02:50 AM Navigating to https://message.bankofamerica.com/onlinebanking_demo/OLB_Simulator/
+05/15/2022 12:02:50 AM ********** Test Case: First Sign in
+05/15/2022 12:02:51 AM Moving to sign in page
+05/15/2022 12:02:56 AM Signing in ...
+05/15/2022 12:02:57 AM Taking a screenshot .\screenshots\image-051522-000257.png
+05/15/2022 12:02:57 AM Closing the browser
+05/15/2022 12:03:03 AM Opening firefox browser
+05/15/2022 12:03:04 AM Navigating to https://message.bankofamerica.com/onlinebanking_demo/OLB_Simulator/
+05/15/2022 12:03:04 AM ********** Test Case: Validating Welcome Page Title 
+05/15/2022 12:03:04 AM Taking a screenshot .\screenshots\image-051522-000304.png
+05/15/2022 12:03:04 AM Closing the browser
