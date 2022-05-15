@@ -19,7 +19,7 @@ def setup(request):
     # the following code runs after each test
     def teardown():
         image_name = fr".\screenshots\image-{datetime.today().strftime('%m%d%y-%H%M%S')}.png"
-        driver.save_screenshot(image_name)
+        # driver.save_screenshot(image_name)
         logger.info(f'Taking a screenshot {image_name}')
         logger.info(f'Closing the browser')
         driver.quit()
