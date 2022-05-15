@@ -102,10 +102,11 @@ celerybeat.pid
 *.sage.py
 
 # Screenshots
-screenshots
+screenshots/
 
 # Logs
-logs
+logs/
+geckodriver.log
 
 # Environments
 .env

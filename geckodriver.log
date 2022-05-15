@@ -498,3 +498,68 @@ DevTools listening on ws://localhost:52101/devtools/browser/48a6a938-cad4-4f7b-9
 1652584498570	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1652584500373	Marionette	INFO	Stopped listening on port 52107
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1652584902459	geckodriver	INFO	Listening on 127.0.0.1:60344
+1652584905526	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60345" "-no-remote" "-profile" "C:\\Users\\eldor\\AppData\\Local\\Temp\\rust_mozprofileLkirUu"
+1652584906056	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\eldor\\AppData\\Local\\Temp\\rust_mozprofileLkirUu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60345/devtools/browser/e0a739d1-60ad-4b02-b401-5fe05fb8743a
+1652584908022	Marionette	INFO	Listening on port 60351
+1652584908226	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652584916305	Marionette	INFO	Stopped listening on port 60351
+1652584917113	geckodriver	INFO	Listening on 127.0.0.1:60423
+1652584920184	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60424" "-no-remote" "-profile" "C:\\Users\\eldor\\AppData\\Local\\Temp\\rust_mozprofileKXBoiD"
+1652584920635	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\eldor\\AppData\\Local\\Temp\\rust_mozprofileKXBoiD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60424/devtools/browser/3c04a5a2-2301-40a8-9f5c-040921552100
+1652584922299	Marionette	INFO	Listening on port 60430
+1652584922354	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652584924175	Marionette	INFO	Stopped listening on port 60430
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\eldor\AppData\Local\Temp\rust_mozprofileKXBoiD\protections.sqlite
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1652586219433	geckodriver	INFO	Listening on 127.0.0.1:55397
+1652586222530	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55398" "-no-remote" "-profile" "C:\\Users\\eldor\\AppData\\Local\\Temp\\rust_mozprofileIqyXvH"
+1652586223288	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\eldor\\AppData\\Local\\Temp\\rust_mozprofileIqyXvH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55398/devtools/browser/c80d08e3-e89e-49d0-b203-a1d84516fd34
+1652586225500	Marionette	INFO	Listening on port 55404
+1652586225756	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652586233655	Marionette	INFO	Stopped listening on port 55404
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\eldor\AppData\Local\Temp\rust_mozprofileIqyXvH\protections.sqlite
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1652586234333	geckodriver	INFO	Listening on 127.0.0.1:55478
+1652586237390	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55479" "-no-remote" "-profile" "C:\\Users\\eldor\\AppData\\Local\\Temp\\rust_mozprofileI3QYO7"
+1652586237776	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\eldor\\AppData\\Local\\Temp\\rust_mozprofileI3QYO7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55479/devtools/browser/dfe4d10d-6570-4b7d-8ff1-e1b29333801d
+1652586239610	Marionette	INFO	Listening on port 55485
+1652586240064	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652586241690	Marionette	INFO	Stopped listening on port 55485
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\eldor\AppData\Local\Temp\rust_mozprofileI3QYO7\protections.sqlite
